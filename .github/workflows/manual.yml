@@ -31,4 +31,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Bash script
-        run: bash scripts/bash.sh
+        run: bash scripts/sample_api_test.sh
