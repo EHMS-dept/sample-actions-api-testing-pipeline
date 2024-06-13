@@ -9,8 +9,8 @@ echo $'\n' $?
 # Check if the HTTP status code is 200
 if [ "$http_status" -eq 200 ]; then
     echo "HTTP status is 200"
-    return 0
+    exit 0
 else
     echo "HTTP status is not 200"
-    return 1
+    exit 1
 fi
