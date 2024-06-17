@@ -33,4 +33,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Bash script
-        run: bash scripts/sample_api_test.sh ${{ inputs.environment_name }}
+        run: bash scripts/sample_api_test.sh ${{ vars.BASE_URL }}
