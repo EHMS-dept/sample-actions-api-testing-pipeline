@@ -14,4 +14,5 @@ if [ "$http_status" -eq 200 ]; then
 else
     echo "HTTP status is not 200"
     exit 1
+    0
 fi
