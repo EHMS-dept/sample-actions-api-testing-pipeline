@@ -8,4 +8,4 @@ jobs:
     # deploy die app
     # mach noch was
     # step n
-    uses: ./.github/workflows/run-shell-tests
+    uses: ./.github/workflows/run-shell-tests.yml
