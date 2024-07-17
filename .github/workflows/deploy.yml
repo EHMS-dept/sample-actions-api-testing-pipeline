@@ -1,0 +1,11 @@
+name: Deploy the broken app
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-tests:
+    # deploy die app
+    # mach noch was
+    # step n
+    uses: ./.github/workflows/run-shell-tests
