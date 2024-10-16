@@ -8,4 +8,8 @@ jobs:
     # deploy die app
     # mach noch was
     # step n
-    uses: ./.github/workflows/manual.yml
+    steps: 
+      - name: Trigger tests
+        uses: ./.github/workflows/manual.yml
+      - name: Say hello
+        
